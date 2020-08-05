@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from friendkit.cssninja.io/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 29 Jan 2020 11:34:34 GMT -->
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title> Friendkit | Social Media Starter Kit</title>
+    <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
+    <link href="assets/css/materialdesignicons.min.css" rel="stylesheet">
+    <link href="assets/css/webfont.css" rel="stylesheet">
+    <!-- Core CSS -->
+    <link rel="stylesheet" href="assets/css/bulma.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/core.css">
+</head>
+
+<body class="is-white">
+
+    <!-- Pageloader -->
+    <div class="pageloader"></div>
+    <div class="infraloader is-active"></div>
+    <div class="navbar is-inline-flex is-transparent no-shadow no-background is-landing is-hidden-mobile">
+        <div class="container is-fluid">
+            <div class="navbar-brand">
+                <a href="index.html" class="navbar-item">
+                    <img src="assets/images/logo/friendkit.svg" alt="">
+                </a>
+            </div>
+            <div class="navbar-menu">
+                <div class="navbar-start">
+                    <div class="navbar-item">
+                        <a href="#buy">Buy</a>
+                    </div>
+                    <div class="navbar-item">
+                        <a href="#demos-section">Demos</a>
+                    </div>
+                    <div class="navbar-item">
+                        <a>Docs</a>
+                    </div>
+                </div>
+    
+                <div class="navbar-end">
+    
+                    <div class="navbar-item">
+                        <div class="navbar-item">
+                            <a href="login.html">Login</a>
+                        </div>
+                        <a id="signup-button" href="signup.html" class="button is-cta is-solid accent-button raised">
+                            Sign Up
+                        </a>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </div>    <nav class="navbar mobile-navbar is-landing is-hidden-desktop" aria-label="main navigation">
+        <!-- Brand -->
+        <div class="navbar-brand">
+            <a class="navbar-item" href="index.html">
+                <img class="dark-mobile-logo" src="assets/images/logo/friendkit.svg" alt="">
+                <img class="light-mobile-logo" src="assets/images/logo/friendkit-white.svg" alt="">
+            </a>
+    
+            <!-- Mobile menu toggler icon -->
+            <div class="navbar-burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <!-- Navbar mobile menu -->
+        <div class="navbar-menu">
+            <!-- Account -->
+            <div class="navbar-item has-dropdown">
+                <div class="navbar-link">
+                    <img src="https://via.placeholder.com/150x150" data-demo-src="assets/images/avatars/avatar-w.png" alt="">
+                    <span class="is-heading">Guest</span>
+                </div>
+    
+                <!-- Mobile Dropdown -->
+                <div class="navbar-dropdown">
+                    <a href="#" class="navbar-item">Buy</a>
+                    <a href="#demos-section" class="navbar-item">Demos</a>
+                    <a href="https://docs.friendkit.cssninja.io/" class="navbar-item">Docs</a>
+                    <a href="login.html" class="navbar-item">Login</a>
+                    <a href="signup.html" class="button is-fullwidth is-solid accent-button">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="landing-wrapper">
+        
+        <div class="hero is-fullheight landing-hero-wrapper">
+            <div id="particles-js"></div>
+            <div class="hero-body">
+                <div class="container">
+                    <div class="columns landing-caption is-vcentered">
+                        <div class="column is-6">
+                            <img src="assets/images/illustrations/characters/friends.svg" alt="">
+                        </div>
+                        <div class="column is-5 is-offset-1">
+                            <h2>Friendkit.</h2>
+                            <h3>Social Media UI Kit.</h3>
+                            <div class="buttons">
+                                <a href="#landing-start" class="button">Get Started</a>
+                                <button id="tour-start" class="button is-hidden-mobile">Take The Tour</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="landing-start" class="section landing-wrapper">
+            <div class="container">
+                <div class="made-with">
+                    <div id="made-with-bulma" class="made-block">
+                        <div class="block-icon is-box-reveal">
+                            <img src="assets/images/icons/logos/bulma.svg" alt="">
+                        </div>
+                        <div class="block-title">
+                            <h3>Bulma 0.7.5</h3>
+                        </div>
+                    </div>
+                    <div class="made-block">
+                        <div class="block-icon is-box-reveal">
+                            <img src="assets/images/icons/logos/gulp.svg" alt="">
+                        </div>
+                        <div class="block-title">
+                            <h3>Gulp</h3>
+                        </div>
+                    </div>
+                    <div class="made-block">
+                        <div class="block-icon is-box-reveal">
+                            <img src="assets/images/icons/logos/sass.svg" alt="">
+                        </div>
+                        <div class="block-title">
+                            <h3>Sass</h3>
+                        </div>
+                    </div>
+                    <div class="made-block">
+                        <div class="block-icon is-box-reveal">
+                            <img src="assets/images/icons/logos/html5.svg" alt="">
+                        </div>
+                        <div class="block-title">
+                            <h3>Html5</h3>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="screen-wrapper">
+                    <img src="assets/images/screens/friendkit-feed.png" alt="">
+                </div>
+            </div>
+        </div>
+        
+        <div class="section landing-wrapper icons-section">
+            <div class="container">
+                <div id="icon-features" class="columns">
+                    <div class="column is-hidden-mobile"></div>
+                    <div class="column is-3">
+                        <div class="landing-icon-box">
+                            <img src="assets/images/icons/landing/code.svg" alt="">
+                            <h3>Structured Code</h3>
+                            <p>For an optimized dev experience</p>
+                        </div>
+                    </div>
+                    <div class="column is-3">
+                        <div class="landing-icon-box">
+                            <img src="assets/images/icons/landing/pages.svg" alt="">
+                            <h3>28 Prebuilt Pages</h3>
+                            <p>To help you kickstart your project</p>
+                        </div>
+                    </div>
+                    <div class="column is-3">
+                        <div class="landing-icon-box">
+                            <img src="assets/images/icons/landing/draw.svg" alt="">
+                            <h3>Illustrations</h3>
+                            <p>Included as svg and png files</p>
+                        </div>
+                    </div>
+                    <div class="column is-hidden-mobile"></div>
+                </div>
+                <div class="columns">
+                    <div class="column is-hidden-mobile"></div>
+                    <div class="column is-3">
+                        <div class="landing-icon-box">
+                            <img src="assets/images/icons/landing/interactions.svg" alt="">
+                            <h3>Micro Interactions</h3>
+                            <p>And attention to details</p>
+                        </div>
+                    </div>
+                    <div class="column is-3">
+                        <div class="landing-icon-box">
+                            <img src="assets/images/icons/landing/responsive.svg" alt="">
+                            <h3>Responsive Design</h3>
+                            <p>Mobile first UI framework</p>
+                        </div>
+                    </div>
+                    <div class="column is-3">
+                        <div class="landing-icon-box">
+                            <img src="assets/images/icons/landing/updates.svg" alt="">
+                            <h3>Lifetime Updates</h3>
+                            <p>With new content every time</p>
+                        </div>
+                    </div>
+                    <div class="column is-hidden-mobile"></div>
+                </div>
+                <div class="columns">
+                    <div class="column is-hidden-mobile"></div>
+                    <div class="column is-3">
+                        <div class="landing-icon-box">
+                            <img src="assets/images/icons/landing/modern.svg" alt="">
+                            <h3>Modern Design</h3>
+                            <p>Following the latest app trends</p>
+                        </div>
+                    </div>
+                    <div class="column is-3">
+                        <div class="landing-icon-box">
+                            <img src="assets/images/icons/landing/elements.svg" alt="">
+                            <h3>350+ UI Elements</h3>
+                            <p>Because we love our customers</p>
+                        </div>
+                    </div>
+                    <div class="column is-3">
+                        <div class="landing-icon-box">
+                            <img src="assets/images/icons/landing/illustrations.svg" alt="">
+                            <h3>Easy Theming</h3>
+                            <p>Branding won't be a problem</p>
+                        </div>
+                    </div>
+                    <div class="column is-hidden-mobile"></div>
+                </div>
+                <div class="columns">
+                    <div class="column is-hidden-mobile"></div>
+                    <div class="column is-3">
+                        <div class="landing-icon-box">
+                            <img src="assets/images/icons/landing/support.svg" alt="">
+                            <h3>Customer Support</h3>
+                            <p>Via email and support forum</p>
+                        </div>
+                    </div>
+                    <div class="column is-3">
+                        <div class="landing-icon-box">
+                            <img src="assets/images/icons/landing/plugin.svg" alt="">
+                            <h3>1 Premium Plugin</h3>
+                            <p>Save $30 on the Fancybox 3 plugin</p>
+                        </div>
+                    </div>
+                    <div class="column is-3">
+                        <div class="landing-icon-box">
+                            <img src="assets/images/icons/landing/docs.svg" alt="">
+                            <h3>Detailed Documentation</h3>
+                            <p>To quickly get you started</p>
+                        </div>
+                    </div>
+                    <div class="column is-hidden-mobile"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section side-feature">
+            <div class="container">
+                <div class="columns is-vcentered">
+                    <div class="column is-5 is-offset-1">
+                        <h3>Handcrafted UI Elements</h3>
+                        <p>A paragraph that explains the feature in details and lorem ipsum sit dolor amet is a text used by typographers to make lines longer.</p>
+                    </div>
+                    <div class="column is-5">
+                        <img src="assets/images/illustrations/ui/components.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section side-feature">
+            <div class="container">
+                <div class="columns is-vcentered">
+                    <div class="column is-5 is-offset-1 is-hidden-mobile">
+                        <img src="assets/images/illustrations/ui/layouts.png" alt="">
+                    </div>
+                    <div class="column is-5 is-offset-1">
+                        <h3>Awesome Layouts</h3>
+                        <p>A paragraph that explains the feature in details and lorem ipsum sit dolor amet is a text used by
+                            typographers to make lines longer.</p>
+                    </div>
+                    <div class="column is-5 is-offset-1 is-hidden-desktop">
+                        <img src="assets/images/illustrations/ui/layouts.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="demos-section" class="section demos-wrapper">
+            <div class="container">
+                <div class="header-logo">
+                    <img src="assets/images/logo/friendkit-white.svg" alt="">
+                </div>
+                <div class="demos-title has-text-centered">
+                    <h3>Prebuilt pages to start with</h3>
+                </div>
+        
+                <div class="demos-list">
+                    <div class="columns is-multiline">
+                        <div class="column is-6">
+                            <a class="demo-item" href="feed.html" target="_blank">
+                                <img src="assets/images/screens/friendkit-feed.png" alt="">
+                                <div class="go-arrow">
+                                    <i data-feather="arrow-right"></i>
+                                </div>
+                            </a>
+                            <h3 class="has-text-centered">Feed</h3>
+                        </div>
+                        <div class="column is-6">
+                            <a class="demo-item" href="feed-v1b.html" target="_blank">
+                                <img src="assets/images/screens/friendkit-feed2.png" alt="">
+                                <div class="go-arrow">
+                                    <i data-feather="arrow-right"></i>
+                                </div>
+                            </a>
+                            <h3 class="has-text-centered">Feed V2</h3>
+                        </div>
+                        <div class="column is-6">
+                            <a class="demo-item" href="login.html" target="_blank">
+                                <img src="assets/images/screens/login.png" alt="">
+                                <div class="go-arrow">
+                                    <i data-feather="arrow-right"></i>
+                                </div>
+                            </a>
+                            <h3 class="has-text-centered">Login</h3>
+                        </div>
+                        <div class="column is-6">
+                            <a class="demo-item" href="signup.html" target="_blank">
+                                <img src="assets/images/screens/signup.png" alt="">
+                                <div class="go-arrow">
+                                    <i data-feather="arrow-right"></i>
+                                </div>
+                            </a>
+                            <h3 class="has-text-centered">Signup Flow</h3>
+                        </div>
+                        <div class="column is-6">
+                            <a class="demo-item" href="profile-main.html" target="_blank">
+                                <img src="assets/images/screens/profile-main.png" alt="">
+                                <div class="go-arrow">
+                                    <i data-feather="arrow-right"></i>
+                                </div>
+                            </a>
+                            <h3 class="has-text-centered">Profile</h3>
+                        </div>
+                        <div class="column is-6">
+                            <a class="demo-item" href="profile-about.html" target="_blank">
+                                <img src="assets/images/screens/profile-about.png" alt="">
+                                <div class="go-arrow">
+                                    <i data-feather="arrow-right"></i>
+                                </div>
+                            </a>
+                            <h3 class="has-text-centered">About</h3>
+                        </div>
+                        <div class="column is-6">
+                            <a class="demo-item" href="profile-friends.html" target="_blank">
+                                <img src="assets/images/screens/profile-friends.png" alt="">
+                                <div class="go-arrow">
+                                    <i data-feather="arrow-right"></i>
+                                </div>
+                            </a>
+                            <h3 class="has-text-centered">Friends</h3>
+                        </div>
+                        <div class="column is-6">
+                            <a class="demo-item" href="profile-photos.html" target="_blank">
+                                <img src="assets/images/screens/profile-photos.png" alt="">
+                                <div class="go-arrow">
+                                    <i data-feather="arrow-right"></i>
+                                </div>
+                            </a>
+                            <h3 class="has-text-centered">Photos</h3>
+                        </div>
+                        <div class="column is-6">
+                            <a class="demo-item" href="options-friends.html" target="_blank">
+                                <img src="assets/images/screens/friends.png" alt="">
+                                <div class="go-arrow">
+                                    <i data-feather="arrow-right"></i>
+                                </div>
+                            </a>
+                            <h3 class="has-text-centered">All Friends</h3>
+                        </div>
+                        <div class="column is-6">
+                            <a class="demo-item" href="messages-inbox.html" target="_blank">
+                                <img src="assets/images/screens/inbox.png" alt="">
+                                <div class="go-arrow">
+                                    <i data-feather="arrow-right"></i>
+                                </div>
+                            </a>
+                            <h3 class="has-text-centered">Inbox</h3>
+                        </div>
+                        <div class="column is-6">
+                            <a class="demo-item" href="messages-chat.html" target="_blank">
+                                <img src="assets/images/screens/chat.png" alt="">
+                                <div class="go-arrow">
+                                    <i data-feather="arrow-right"></i>
+                                </div>
+                            </a>
+                            <h3 class="has-text-centered">Messaging</h3>
+                        </div>
+                        <div class="column is-6">
+                            <a class="demo-item" href="pages-main.html" target="_blank">
+                                <img src="assets/images/screens/pages-main.png" alt="">
+                                <div class="go-arrow">
+                                    <i data-feather="arrow-right"></i>
+                                </div>
+                            </a>
+                            <h3 class="has-text-centered">Company</h3>
+                        </div>
+                        <div class="column is-6">
+                            <a class="demo-item" href="pages-about.html" target="_blank">
+                                <img src="assets/images/screens/about-fan.png" alt="">
+                                <div class="go-arrow">
+                                    <i data-feather="arrow-right"></i>
+                                </div>
+                            </a>
+                            <h3 class="has-text-centered">About Company</h3>
+                        </div>
+                        <div class="column is-6">
+                            <a class="demo-item" href="pages-community.html" target="_blank">
+                                <img src="assets/images/screens/pages-community.png" alt="">
+                                <div class="go-arrow">
+                                    <i data-feather="arrow-right"></i>
+                                </div>
+                            </a>
+                            <h3 class="has-text-centered">Community</h3>
+                        </div>
+                        <div class="column is-6">
+                            <a class="demo-item" href="pages-photos.html" target="_blank">
+                                <img src="assets/images/screens/pages-photos.png" alt="">
+                                <div class="go-arrow">
+                                    <i data-feather="arrow-right"></i>
+                                </div>
+                            </a>
+                            <h3 class="has-text-centered">Company Photos</h3>
+                        </div>
+                        <div class="column is-6">
+                            <a class="demo-item" href="videos-home.html" target="_blank">
+                                <img src="assets/images/screens/videos-home.png" alt="">
+                                <div class="go-arrow">
+                                    <i data-feather="arrow-right"></i>
+                                </div>
+                            </a>
+                            <h3 class="has-text-centered">Videos</h3>
+                        </div>
+                        <div class="column is-6">
+                            <a class="demo-item" href="videos-home-v2.html" target="_blank">
+                                <img src="assets/images/screens/videos-home2.png" alt="">
+                                <div class="go-arrow">
+                                    <i data-feather="arrow-right"></i>
+                                </div>
+                            </a>
+                            <h3 class="has-text-centered">Videos V2</h3>
+                        </div>
+                        <div class="column is-6">
+                            <a class="demo-item" href="videos-player.html" target="_blank">
+                                <img src="assets/images/screens/videos-player.png" alt="">
+                                <div class="go-arrow">
+                                    <i data-feather="arrow-right"></i>
+                                </div>
+                            </a>
+                            <h3 class="has-text-centered">Videos Player</h3>
+                        </div>
+                        <div class="column is-6">
+                            <a class="demo-item" href="questions-home.html" target="_blank">
+                                <img src="assets/images/screens/questions-home.png" alt="">
+                                <div class="go-arrow">
+                                    <i data-feather="arrow-right"></i>
+                                </div>
+                            </a>
+                            <h3 class="has-text-centered">Questions</h3>
+                        </div>
+                        <div class="column is-6">
+                            <a class="demo-item" href="questions-categories.html" target="_blank">
+                                <img src="assets/images/screens/questions-categories.png" alt="">
+                                <div class="go-arrow">
+                                    <i data-feather="arrow-right"></i>
+                                </div>
+                            </a>
+                            <h3 class="has-text-centered">Categories</h3>
+                        </div>
+                        <div class="column is-6">
+                            <a class="demo-item" href="questions-single.html" target="_blank">
+                                <img src="assets/images/screens/questions-single.png" alt="">
+                                <div class="go-arrow">
+                                    <i data-feather="arrow-right"></i>
+                                </div>
+                            </a>
+                            <h3 class="has-text-centered">Question</h3>
+                        </div>
+                        <div class="column is-6">
+                            <a class="demo-item" href="questions-stats.html" target="_blank">
+                                <img src="assets/images/screens/questions-stats.png" alt="">
+                                <div class="go-arrow">
+                                    <i data-feather="arrow-right"></i>
+                                </div>
+                            </a>
+                            <h3 class="has-text-centered">Statistics</h3>
+                        </div>
+                        <div class="column is-6">
+                            <a class="demo-item" href="questions-settings.html" target="_blank">
+                                <img src="assets/images/screens/questions-settings.png" alt="">
+                                <div class="go-arrow">
+                                    <i data-feather="arrow-right"></i>
+                                </div>
+                            </a>
+                            <h3 class="has-text-centered">Settings</h3>
+                        </div>
+                        <div class="column is-6">
+                            <a class="demo-item" href="events.html" target="_blank">
+                                <img src="assets/images/screens/events.png" alt="">
+                                <div class="go-arrow">
+                                    <i data-feather="arrow-right"></i>
+                                </div>
+                            </a>
+                            <h3 class="has-text-centered">Events</h3>
+                        </div>
+                        <div class="column is-6">
+                            <a class="demo-item" href="news.html" target="_blank">
+                                <img src="assets/images/screens/news.png" alt="">
+                                <div class="go-arrow">
+                                    <i data-feather="arrow-right"></i>
+                                </div>
+                            </a>
+                            <h3 class="has-text-centered">News Feed</h3>
+                        </div>
+                        <div class="column is-6">
+                            <a class="demo-item" href="placeholders-feed.html" target="_blank">
+                                <img src="assets/images/screens/placeholders-feed.png" alt="">
+                                <div class="go-arrow">
+                                    <i data-feather="arrow-right"></i>
+                                </div>
+                            </a>
+                            <h3 class="has-text-centered">Placeholders V1</h3>
+                        </div>
+                        <div class="column is-6">
+                            <a class="demo-item" href="placeholders-questions-1.html" target="_blank">
+                                <img src="assets/images/screens/placeholders-questions1.png" alt="">
+                                <div class="go-arrow">
+                                    <i data-feather="arrow-right"></i>
+                                </div>
+                            </a>
+                            <h3 class="has-text-centered">Placeholders V2</h3>
+                        </div>
+                        <div class="column is-6">
+                            <a class="demo-item" href="placeholders-questions-2.html" target="_blank">
+                                <img src="assets/images/screens/placeholders-questions2.png" alt="">
+                                <div class="go-arrow">
+                                    <i data-feather="arrow-right"></i>
+                                </div>
+                            </a>
+                            <h3 class="has-text-centered">Placeholders V3</h3>
+                        </div>
+                        <div class="column is-6">
+                            <a class="demo-item" href="placeholders-questions-3.html" target="_blank">
+                                <img src="assets/images/screens/placeholders-questions3.png" alt="">
+                                <div class="go-arrow">
+                                    <i data-feather="arrow-right"></i>
+                                </div>
+                            </a>
+                            <h3 class="has-text-centered">Placeholders V4</h3>
+                        </div>
+                        <div class="column is-6">
+                            <a class="demo-item" href="elements.html" target="_blank">
+                                <img src="assets/images/screens/elements.png" alt="">
+                                <div class="go-arrow">
+                                    <i data-feather="arrow-right"></i>
+                                </div>
+                            </a>
+                            <h3 class="has-text-centered">Elements</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="buy" class="section cta-wrapper">
+            <div class="container">
+                <div class="header-logo">
+                    <img src="assets/images/logo/friendkit-white.svg" alt="">
+                </div>
+                <div class="cta-title">
+                    <h3>Exclusively on Envato Market</h3>
+                    <a class="custom-button is-single-reveal">
+                        <img src="assets/images/icons/explore/envato.svg" alt="">
+                        <span>Get It Now</span>
+                    </a>
+                </div>
+                <img class="people-img" src="assets/images/illustrations/characters/friends2.svg" alt="">
+            </div>
+        </div>
+        
+        <footer class="footer">
+            <div class="container">
+                <div class="columns">
+                    <!-- Column -->
+                    <div class="column is-4">
+                        <div>
+                            <img class="small-footer-logo" src="assets/images/logo/friendkit.svg" alt="">
+                            <div class="footer-description pt-10 pb-10">
+                                Friendkit is built for developers and designers. Everything is there to kickstart your next webapp UI.
+                            </div>
+                        </div>
+                        <div>
+                            <span class="moto">Designed and coded with <i data-feather="heart"></i> by CSS Ninja.</span>
+                        </div>
+                    </div>
+                    <!-- Column -->
+                    <div class="column is-6 is-offset-2">
+                        <div class="columns">
+                            <!-- Column -->
+                            <div class="column">
+                                <ul class="footer-column">
+                                    <li class="column-header">
+                                        Friendkit
+                                    </li>
+                                    <li class="column-item"><a href="#">Home</a></li>
+                                    <li class="column-item"><a href="#">Pricing</a></li>
+                                    <li class="column-item"><a href="#">Get started</a></li>
+                                    <li class="column-item"><a href="#">Help</a></li>
+                                </ul>
+                            </div>
+                            <!-- Column -->
+                            <div class="column">
+                                <ul class="footer-column">
+                                    <li class="column-header">
+                                        Ressources
+                                    </li>
+                                    <li class="column-item"><a href="#">Learning</a></li>
+                                    <li class="column-item"><a href="#">Support center</a></li>
+                                    <li class="column-item"><a href="#">Frequent questions</a></li>
+                                    <li class="column-item"><a href="#">Schedule a demo</a></li>
+                                </ul>
+                            </div>
+                            <!-- Column -->
+                            <div class="column">
+                                <ul class="footer-column">
+                                    <li class="column-header">
+                                        Terms
+                                    </li>
+                                    <li class="column-item"><a href="#">Terms of Service</a></li>
+                                    <li class="column-item"><a href="#">Privacy policy</a></li>
+                                    <li class="column-item"><a href="#">SaaS services</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="copyright">
+            <div class="container">
+                <div class="inner">
+                    <div class="left is-hidden-mobile">
+                        &copy; 2019-2020 Css Ninja. All Rights Reserved.
+                    </div>
+                    <div class="right">
+                        <img src="assets/images/logo/cssninja-grayscale.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>    </div>
+
+    <!-- Concatenated js plugins and jQuery -->
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/particles.min.js"></script>
+    
+    <!-- Core js -->
+    <script src="assets/data/tipuedrop_content.js"></script>
+    <script src="assets/js/global.js"></script>
+    <script src="assets/js/main.js"></script>
+    
+    <!-- Page and UI related js -->
+    <script src="assets/js/landing.js"></script>
+    <script src="assets/js/tour.js"></script>
+</body>
+
+
+<!-- Mirrored from friendkit.cssninja.io/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 29 Jan 2020 11:35:02 GMT -->
+</html>
