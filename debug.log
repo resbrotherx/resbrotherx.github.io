@@ -1,0 +1,5 @@
+[0926/213146.234:ERROR:process_info.cc(359)] UncheckedAllocate
+[0927/004824.443:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0927/004824.506:ERROR:exception_snapshot_win.cc(99)] thread ID 5808 not found in process
+[0927/004824.537:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0927/004824.537:ERROR:exception_snapshot_win.cc(99)] thread ID 4460 not found in process
